@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
     spec.platform     = :ios, "8.3"
 
-    spec.source       = { :git => 'https://github.com/passbase/zoomauthentication.git', :tag => spec.version.to_s }
+    spec.source       = { :http => "https://button.passbase.com/__react-native/ZoomAuthenticationHybrid.framework.zip" }
 
     spec.framework    = "ZoomAuthenticationHybrid"
     spec.vendored_frameworks = "ZoomAuthenticationHybrid.framework"
